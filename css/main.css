@@ -22,11 +22,10 @@ a {
 }
 
 
-
 .content {
     display: grid;
     grid-template-columns: 1fr minmax(auto, 900px) minmax(auto, 300px) 1fr;
-    grid-gap: 4px;
+    grid-row-gap: 5px;
     grid-template-rows: minmax(500px, auto);
     background-color: #f8f2f2;
 }
@@ -38,8 +37,8 @@ a {
     box-shadow: 0 0 5px 1px rgba(226, 226, 226, .8);
 }
 
-.content article img {
-    /*height/: 150px;*/
+.content article:last-child{
+    margin-bottom: 15px
 }
 
 .content article h3:before {

@@ -1,0 +1,40 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+    grid-template-rows: minmax(auto, 130px);
+    background-color: #f0cbcb;
+    color: #777777;
+}
+
+.footer-content {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footer-logo {
+    width: 103px;
+    padding: 10px;
+    align-self: center;
+    margin-left: 25px;
+}
+
+footer .contacts {
+    justify-self: center;
+    align-self: center;
+}
+
+footer .fa-at{
+    margin-left: 15px;
+}
+
+footer .fa-at:hover,
+footer .fa-phone:hover {
+    color: #4c4949;
+    cursor: pointer;
+}
+
+footer .copyright{
+    justify-self: end;
+    align-self: center;
+}
