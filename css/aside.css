@@ -107,6 +107,10 @@ aside .search button {
     padding: 5px;
     height: 30px;
 }
+aside .search button:hover,
+aside .subscribe button:hover{
+    cursor: pointer;
+}
 
 aside .tags {
     margin-top: 5px;

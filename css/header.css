@@ -7,9 +7,6 @@ header {
 
 .header-content {
     grid-column: 2/3;
-}
-
-.h-c {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 130px 1fr;

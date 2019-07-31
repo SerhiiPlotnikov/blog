@@ -46,13 +46,13 @@ a {
     left: 2px;
     content: "";
     display: block;
-    background: url("assets/images/articles/check.jpg") no-repeat;
+    background: url("../assets/images/articles/check.jpg") no-repeat;
     height: 20px;
     width: 23px;
 
 }
 
-.content article h3 {
+.content article a {
     margin-left: 27px;
     color: #559289;
 }
