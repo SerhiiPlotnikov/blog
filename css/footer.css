@@ -20,12 +20,14 @@ footer .footer-logo {
 }
 
 footer .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-self: center;
     align-self: center;
 }
 
 footer .fa-at{
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 footer .fa-at:hover,
@@ -37,4 +39,5 @@ footer .fa-phone:hover {
 footer .copyright{
     justify-self: end;
     align-self: center;
+    margin-right: 10px;
 }
