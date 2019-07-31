@@ -1,0 +1,73 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+    grid-template-rows: 136px;
+    background-color: #f0cbcb;
+}
+
+.header-content {
+    grid-column: 2/3;
+}
+
+.h-c {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 130px 1fr;
+}
+
+.logo {
+    grid-row: 1/3;
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    font-size: 1.5em;
+    justify-content: end;
+    margin-top: 14px;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.linkedin {
+    justify-self: end;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin,
+.fa-instagram,
+.fa-search {
+    color: #777777;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-search:hover {
+    color: #4c4949;
+    cursor: pointer;
+}
+
+.menu {
+    justify-self: end;
+    font-size: 23px;
+}
+
+.menu li {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.menu a {
+    color: #ee5240;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #a52516;
+}

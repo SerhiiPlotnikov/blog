@@ -1,0 +1,152 @@
+aside {
+    color: #777777;
+    grid-column: 3/4;
+    margin-top: 5px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-rows: repeat(6, max-content);
+    grid-template-columns: auto;
+    font-family: Arial sans-serif;
+}
+
+aside .author,
+aside .social-icons,
+aside .subscribe,
+aside .search,
+aside .tags,
+aside .last-comment {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1px rgba(226, 226, 226, .9);
+}
+
+aside .author {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+aside .author .name {
+    font-size: 18px;
+    grid-column: 2;
+    margin-top: 10px;
+}
+
+aside .author .author-detail {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding-left: 5px;
+}
+
+aside .author img {
+    max-width: 74px;
+    max-height: 100px;
+    grid-column: 1;
+}
+
+aside .social-icons {
+    justify-content: left;
+}
+
+aside .subscribe {
+    margin-top: 5px;
+    display: grid;
+    grid-row-gap: 5px;
+    grid-template-rows: 1fr 3fr;
+}
+
+aside .subscribe h3 {
+    margin-top: 15px;
+    justify-self: center;
+}
+
+.subscribe form {
+    display: grid;
+    grid-row-gap: 5px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+aside .subscribe input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    /*outline: none;*/
+    background-color: #f6f6f6;
+    border: 1px solid #beadad;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+aside .search {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.search form {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5px;
+}
+
+aside .search h3 {
+    justify-self: center;
+    align-self: center;
+}
+
+aside .search input {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 180px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: #f6f6f6;
+    border: 1px solid #beadad;
+}
+
+aside .search button {
+    box-sizing: border-box;
+    padding: 5px;
+    height: 30px;
+}
+
+aside .tags {
+    margin-top: 5px;
+    padding: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+aside .tags p {
+    text-align: center;
+}
+
+
+aside .last-comment {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+aside .last-comment img {
+    grid-row: 1/3;
+}
+
+aside .last-comment .message {
+    grid-column: 2/4;
+    grid-row: 2;
+    padding-left: 5px;
+}
+
+aside .last-comment img {
+    padding: 3px;
+}
+
+aside .last-comment .name {
+    align-self: center;
+    padding-left: 5px;
+}
+
+aside .last-comment .time {
+    align-self: center;
+}
