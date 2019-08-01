@@ -291,8 +291,8 @@ main {
 
     aside .social-icons {
         grid-column: 1;
-        /*grid-row: 1;*/
-        justify-content: left;
+        display: grid;
+        justify-content: center;
     }
 
     aside .subscribe {
@@ -315,6 +315,7 @@ main {
         grid-column: 1;
         min-width: 282px;
         height: 70px;
+        margin-bottom: 10px;
     }
 
     aside .last-comment img {
@@ -322,5 +323,5 @@ main {
         height: 70px;
         width: 60px;
     }
-    
+
 }
